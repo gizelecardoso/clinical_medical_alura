@@ -1,0 +1,23 @@
+@import url("styles/header.css");
+@import url("styles/main.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --first-white-color: #FFFFFF;
+  --second-white-color: #ECECEC;
+  --third-white-color: #F6F6F6;
+  --first-gray-color: #333333;
+  --second-gray-color: #464646;
+  --third-gray-color: #A3A3A3;
+  --first-orange-color: #FFB050;
+  --first-blue-color: #4894FF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: var(--second-white-color);
+}

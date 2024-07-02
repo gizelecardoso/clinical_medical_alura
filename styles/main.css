@@ -1,0 +1,137 @@
+
+.users_appointments {
+  padding: 0 20px;
+}
+
+.users_appointments_title {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: var(--second-gray-color);
+  padding: 10px 0;
+}
+
+.users_appointments_card {
+  background-color: var(--first-white-color);
+  padding: 20px 10px 10px 10px;
+  margin-top: 10px;
+
+}
+
+.users_appointments_card_header {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.users_appointments_card_header_infos {
+  display: flex;
+}
+
+.users_appointments_card_header_infos_image {
+  height: 32px;
+  border-radius: 32px;
+  margin-right: 20px;
+}
+
+.users_appointments_card_header_infos_name {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: var(--second-gray-color);
+}
+
+.users_appointments_card_header_infos_appointment {
+  display: flex;
+  align-items: center;
+}
+
+.users_appointments_card_header_infos_appointment_image {
+  width: 16px;
+  height: 10.67px;
+  padding-right: 10px;
+}
+
+.users_appointments_card_header_infos_appointment_pin {
+  width: 13.33px;
+  height: 16px;
+  padding-right: 10px;
+}
+
+.users_appointments_card_header_infos_appointment_text {
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: var(--third-gray-color);
+}
+
+.users_appointments_card_header_chat {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  border-radius: 32px;
+  background-color: var(--third-white-color);
+  align-items: center;
+  justify-content: center;
+}
+
+.users_appointments_card_header_chat_image {
+  width: 13.33px;
+  height: 13.33px;
+}
+
+.users_appointments_card_body {
+  margin-top: 20px;
+  padding: 10px 0;
+  border-top: 1px solid rgba(70, 70, 70, .1);
+}
+
+.users_appointments_card_body_hour {
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: var(--second-gray-color);
+}
+
+.users_appointments_card_body_buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.users_appointments_card_body_buttons_video {
+  width: 100%;
+  margin-right: 10px;
+  height: 48px;
+  background-color: var(--first-orange-color);
+  border: 0;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: var(--first-white-color);
+}
+
+.users_appointments_card_body_buttons_audio {
+  width: 100%;
+  height: 48px;
+  background-color: transparent;
+  border: 1px solid var(--second-white-color);
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: var(--second-gray-color);
+}
+
+.users_appointments_card_body_buttons_address {
+  width: 100%;
+  height: 48px;
+  background-color: var(--first-blue-color);
+  border: 0;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: var(--first-white-color);
+}
