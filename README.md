@@ -5,4 +5,10 @@ This project is based on 7DaysOfCode is a Alura's challenge that was indicated t
 1. Challenge First Day (July, 2nd)
 
 Create the header and list of appoitments
-![alt text](image.png)
+![alt text](./assets/readme/first_day.png)
+
+
+2. Challenge First Day (July, 8nd)
+
+Create the footer with absolute position
+![alt text](./assets/readme/second_day.png)

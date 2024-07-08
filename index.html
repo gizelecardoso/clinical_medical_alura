@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles.css"> 
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Medical Clinic</title>
 </head>
 <body class="container">
@@ -28,7 +29,7 @@
     </section>
   </header>
 
-  <main>
+  <main class="main_container">
     <section class="users_appointments">
       <h3 class="users_appointments_title">Hoje</h3>
       <div class="users_appointments_card">
@@ -50,8 +51,8 @@
         <div class="users_appointments_card_body">
           <p class="users_appointments_card_body_hour">14:00 - 15:00 (1 hora)</p>
           <div class="users_appointments_card_body_buttons">
-            <button href="" class="users_appointments_card_body_buttons_video">Ligar por vídeo</button>
-            <button href="" class="users_appointments_card_body_buttons_audio">Ligar por áudio</button>
+            <button class="users_appointments_card_body_buttons_video">Ligar por vídeo</button>
+            <button class="users_appointments_card_body_buttons_audio">Ligar por áudio</button>
           </div>
         </div>
       </div>
@@ -75,11 +76,124 @@
         <div class="users_appointments_card_body">
           <p class="users_appointments_card_body_hour">14:00 - 15:00 (1 hora)</p>
           <div class="users_appointments_card_body_buttons">
-            <button href="" class="users_appointments_card_body_buttons_address">Ver endereço</button>
+            <button class="users_appointments_card_body_buttons_address">Ver endereço</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="users_appointments_card">
+        <div class="users_appointments_card_header">
+          <div class="users_appointments_card_header_infos">
+            <img src="./assets/perfil-2.jpg" class="users_appointments_card_header_infos_image">
+            <div>
+              <h2 class="users_appointments_card_header_infos_name">Luciana Dias</h2>
+              <div class="users_appointments_card_header_infos_appointment">
+                <img src="./assets/Camera.png" class="users_appointments_card_header_infos_appointment_image">
+                <p class="users_appointments_card_header_infos_appointment_text">Consulta remota</p>
+              </div>
+            </div>
+          </div>
+          <div class="users_appointments_card_header_chat">
+            <img src="./assets/chat1.png" class="users_appointments_card_header_chat_image">
+          </div>
+        </div>
+        <div class="users_appointments_card_body">
+          <p class="users_appointments_card_body_hour">14:00 - 15:00 (1 hora)</p>
+          <div class="users_appointments_card_body_buttons">
+            <button class="users_appointments_card_body_buttons_video">Ligar por vídeo</button>
+            <button class="users_appointments_card_body_buttons_audio">Ligar por áudio</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="users_appointments">
+      <h3 class="users_appointments_title">Amanhã</h3>
+      <div class="users_appointments_card">
+        <div class="users_appointments_card_header">
+          <div class="users_appointments_card_header_infos">
+            <img src="./assets/perfil-2.jpg" class="users_appointments_card_header_infos_image">
+            <div>
+              <h2 class="users_appointments_card_header_infos_name">Luciana Dias</h2>
+              <div class="users_appointments_card_header_infos_appointment">
+                <img src="./assets/Camera.png" class="users_appointments_card_header_infos_appointment_image">
+                <p class="users_appointments_card_header_infos_appointment_text">Consulta remota</p>
+              </div>
+            </div>
+          </div>
+          <div class="users_appointments_card_header_chat">
+            <img src="./assets/chat1.png" class="users_appointments_card_header_chat_image">
+          </div>
+        </div>
+        <div class="users_appointments_card_body">
+          <p class="users_appointments_card_body_hour">14:00 - 15:00 (1 hora)</p>
+          <div class="users_appointments_card_body_buttons">
+            <button class="users_appointments_card_body_buttons_video">Ligar por vídeo</button>
+            <button class="users_appointments_card_body_buttons_audio">Ligar por áudio</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="users_appointments_card">
+        <div class="users_appointments_card_header">
+          <div class="users_appointments_card_header_infos">
+            <img src="./assets/perfil-3.jpg" class="users_appointments_card_header_infos_image">
+            <div>
+              <h2 class="users_appointments_card_header_infos_name">Luciana Dias</h2>
+              <div class="users_appointments_card_header_infos_appointment">
+                <img src="./assets/pin.png" class="users_appointments_card_header_infos_appointment_pin">
+                <p class="users_appointments_card_header_infos_appointment_text">Consulta remota</p>
+              </div>
+            </div>
+          </div>
+          <div class="users_appointments_card_header_chat">
+            <img src="./assets/chat1.png" class="users_appointments_card_header_chat_image">
+          </div>
+        </div>
+        <div class="users_appointments_card_body">
+          <p class="users_appointments_card_body_hour">14:00 - 15:00 (1 hora)</p>
+          <div class="users_appointments_card_body_buttons">
+            <button class="users_appointments_card_body_buttons_address">Ver endereço</button>
           </div>
         </div>
       </div>
     </section>
   </main>
+
+  <footer class="footer_container">
+    <button class="footer_container_add_appointment" onclick="alert('working')">
+      <i class="fa fa-plus footer_container_add_appointment_icon"></i>
+    </button>
+
+    <section class="footer_container_menu_bar">
+      <div class="footer_container_appoitments">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="footer_container_icons">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
+        </svg>
+        <p class="footer_container_titles">Consultas</p>
+      </div>
+  
+      <div class="footer_container_customers">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="footer_container_icons">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+        </svg>
+        <p class="footer_container_titles">Clientes</p>
+      </div>
+  
+      <div class="footer_container_reports">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="footer_container_icons">
+          <path d="M18.375 2.25c-1.035 0-1.875.84-1.875 1.875v15.75c0 1.035.84 1.875 1.875 1.875h.75c1.035 0 1.875-.84 1.875-1.875V4.125c0-1.036-.84-1.875-1.875-1.875h-.75ZM9.75 8.625c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-.75a1.875 1.875 0 0 1-1.875-1.875V8.625ZM3 13.125c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v6.75c0 1.035-.84 1.875-1.875 1.875h-.75A1.875 1.875 0 0 1 3 19.875v-6.75Z" />
+        </svg>
+        <p class="footer_container_titles">Relatórios</p>
+      </div>
+  
+      <div class="footer_container_menu">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="footer_container_icons">
+          <path fill-rule="evenodd" d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
+        </svg>
+        <p class="footer_container_titles">Menu</p>
+      </div>
+    </section>
+  </footer>  
 </body>
 </html>
