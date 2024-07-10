@@ -35,14 +35,14 @@
 }
 
 .greeting_profile_welcome {
-  font-size: 22px;
+  font-size: 1.375rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   color: var(--second-gray-color);
 }
 
 .greeting_profile_text {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: var(--third-gray-color);

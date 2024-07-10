@@ -4,7 +4,7 @@
 }
 
 .users_appointments_title {
-  font-size: 16px;
+  font-size: 1rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   color: var(--second-gray-color);
@@ -15,7 +15,6 @@
   background-color: var(--first-white-color);
   padding: 20px 10px 10px 10px;
   margin-top: 10px;
-
 }
 
 .users_appointments_card_header {
@@ -35,7 +34,7 @@
 }
 
 .users_appointments_card_header_infos_name {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   color: var(--second-gray-color);
@@ -59,7 +58,7 @@
 }
 
 .users_appointments_card_header_infos_appointment_text {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: var(--third-gray-color);
@@ -87,7 +86,7 @@
 }
 
 .users_appointments_card_body_hour {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   color: var(--second-gray-color);
@@ -106,7 +105,7 @@
   background-color: var(--first-orange-color);
   border: 0;
   border-radius: 8px;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   color: var(--first-white-color);
@@ -118,7 +117,7 @@
   background-color: transparent;
   border: 1px solid var(--second-white-color);
   border-radius: 8px;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   color: var(--second-gray-color);
@@ -130,8 +129,32 @@
   background-color: var(--first-blue-color);
   border: 0;
   border-radius: 8px;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   color: var(--first-white-color);
+}
+
+@media(min-width: 500px) {
+  .users_appointments_card_component {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+
+  .users_appointments_card {
+    margin-right: 20px;
+  }
+
+  .users_appointments_card_header_infos_image {
+    height: 48px;
+    border-radius: 48px;
+    margin-right: 20px;
+  }
+}
+
+@media(min-width: 900px) {
+  .users_appointments_card_component {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
